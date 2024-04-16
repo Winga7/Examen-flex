@@ -49,13 +49,11 @@ main h3 {
 	font-weight: lighter;
 	font-size: 0.7rem;
 }
-.folio {
+.folio,
+.logos {
 	display: flex;
 	flex-flow: row wrap;
 	/* gap: 1.5em; */
-}
-.folio li {
-	padding: 0;
 }
 .folio li figure img {
 	max-width: 60%;
