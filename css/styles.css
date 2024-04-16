@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Roboto&display=swap");
+
+body {
+	margin: 2em;
+	font-family: "Indie Flower", cursive;
+}
+header {
+	background-image: url(../images/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: auto;
+	font-size: 2rem;
+	height: 200px;
+}
+header h1 {
+	position: absolute;
+	color: white;
+	top: 180px;
+	left: 60px;
+	text-transform: capitalize;
+	font-weight: bolder;
+}
+nav {
+	/* position: fixed; */
+	background-color: rgba(86, 85, 85, 0.6);
+}
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	gap: 1em;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: crimson;
+}
+main {
+	padding: 2em;
+}
+main h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+main h3 {
+	font-weight: lighter;
+	font-size: 0.7rem;
+}
+div #folio figure {
+	display: flex;
+}
+footer {
+	padding: 3em;
+	text-align: center;
+	background-color: rgb(42, 42, 42);
+}
+footer a {
+	color: white;
+	text-decoration: none;
+	padding: 1em;
+}
+footer span {
+	padding: 1em;
+	display: flex;
+	justify-content: center;
+}
+footer figure a img {
+	width: 35px;
+}
