@@ -68,8 +68,14 @@ main h3 {
 	flex-flow: row wrap;
 	/* gap: 1.5em; */
 }
-.folio li figure img {
+.folio li,
+.logos li {
+	flex: 1 0 25%;
+}
+.folio li figure img,
+.logos li figure img {
 	max-width: 60%;
+	width: auto;
 	height: auto;
 }
 .nosservices {
