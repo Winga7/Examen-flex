@@ -49,8 +49,20 @@ main h3 {
 	font-weight: lighter;
 	font-size: 0.7rem;
 }
-div #folio figure {
+.folio {
 	display: flex;
+	flex-flow: row wrap;
+	/* gap: 1.5em; */
+}
+.folio li {
+	padding: 0;
+}
+.folio li figure img {
+	max-width: 60%;
+	height: auto;
+}
+div #nosservices p {
+	column-count: 3;
 }
 footer {
 	padding: 3em;
