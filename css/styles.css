@@ -21,9 +21,17 @@ header h1 {
 	text-transform: capitalize;
 	font-weight: bolder;
 }
+#top-bouton {
+	position: fixed;
+	right: 20px;
+	bottom: 10px;
+}
 nav {
-	/* position: fixed; */
-	background-color: rgba(86, 85, 85, 0.6);
+	position: fixed;
+	background-color: rgba(86, 85, 85, 0.7);
+	width: 100%; /* Add this line to make the background take full width */
+	top: 0;
+	right: 0;
 }
 nav ul {
 	display: flex;
